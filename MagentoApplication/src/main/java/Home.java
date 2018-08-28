@@ -13,8 +13,9 @@ public class Home {
      public Home(WebDriver driver) 
      {
 		this.driver = driver;
+		System.out.println("data is pushed");
 	 }
-     
+    
      public void clickOnMyacc()
      {
     	 driver.findElement(myacc).click();
